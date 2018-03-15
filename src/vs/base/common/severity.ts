@@ -5,7 +5,7 @@
 'use strict';
 
 import nls = require('vs/nls');
-import strings = require('vs/base/common/strings');
+import * as strings from 'vs/base/common/strings';
 
 enum Severity {
 	Ignore = 0,
